@@ -1,0 +1,7 @@
+# figures are NOT versioned here — code only
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+.DS_Store
