@@ -101,7 +101,7 @@ binGlobal<-function(P,rmap,nb){P[,gg:=rmap[a]*rmap[b]];P<-P[is.finite(gg)&gg!=0]
  bs<-P[,.(mg=mean(gg)),by=grp];P[,disc:=fifelse(bs$mg<0,"disc","conc")[match(grp,bs$grp)]]
  if(nb%%2==1)P[grp==(nb+1)/2,disc:="neutral"]                       # odd nb: middle bin = near-zero, colour grey
  H<-P[,.(med=median(revrate),n=.N),by=grp][order(grp)]
- lb<-rep("",nb);lb[1]<-"discordant\n(strong)";lb[nb]<-"concordant\n(strong)";if(nb%%2==1)lb[(nb+1)/2]<-"neutral"
+ lb<-rep("''",nb);lb[1]<-"atop('discordant','(strong)')";lb[nb]<-"atop('concordant','(strong)')";if(nb%%2==1)lb[(nb+1)/2]<-"rho[i]*rho[j]%~~%0"   # middle tertile labelled with the math expression, no 'neutral' word
  ggplot(P,aes(grpf,revrate))+geom_hline(yintercept=.5,linetype="dotted",color="grey65")+
   geom_violin(aes(fill=disc),color=NA,alpha=.22,scale="width",width=.85)+
   geom_jitter(aes(size=ns,color=disc),width=.17,alpha=.14,stroke=0)+
@@ -109,7 +109,7 @@ binGlobal<-function(P,rmap,nb){P[,gg:=rmap[a]*rmap[b]];P<-P[is.finite(gg)&gg!=0]
   geom_point(data=H,aes(grp,med),shape=23,size=1.8,fill="white",color="black",stroke=.6)+
   scale_fill_manual(values=c(disc="#C0392B",conc="#2C6FBB",neutral="grey60"),guide="none")+scale_color_manual(values=c(disc="#C0392B",conc="#2C6FBB",neutral="grey55"),guide="none")+
   scale_size_continuous(range=c(.25,1.7),name="shared\ngenes")+
-  scale_y_continuous(labels=function(x)x*100,limits=c(0,1))+scale_x_discrete(labels=lb)+
+  scale_y_continuous(labels=function(x)x*100,limits=c(0,1))+scale_x_discrete(labels=parse(text=lb))+
   labs(x=expression("fertility coupling of disease pairs   ("*rho[i]%.%rho[j]*":  discordant "%->%" concordant)"),y="opposite-effect proportion (% shared genes)")+
   theme_classic(base_size=7)+theme(axis.text.x=element_text(size=5.7),axis.text.y=element_text(size=6),axis.title.y=element_text(size=6.5),axis.title.x=element_text(size=6,margin=margin(t=3)),legend.position="inside",legend.position.inside=c(.80,.96),legend.direction="horizontal",legend.title=element_text(size=5,vjust=.9),legend.key.size=unit(2.6,"mm"),legend.text=element_text(size=4.6),legend.margin=margin(0,0,0,0),plot.margin=margin(18,16,10,0))}
 build<-function(sex,out,nb){R<-pipe(sprintf("ACAT_%s_gene_disease_all.csv",sex),sex);gA<-saddle_tri(R$P,R$rmap);gB<-binGlobal(copy(R$P),R$rmap,nb)
