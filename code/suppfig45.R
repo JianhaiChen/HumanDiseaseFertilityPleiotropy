@@ -2,7 +2,7 @@
 ## proportions within each fertility trait, counts above bars. IV-filtered kept dual set.
 suppressMessages({library(data.table);library(ggplot2)})
 MR<-"/Volumes/X10Pro/data/synergistic/mr_res"; OUT<-"/Volumes/S840/04mypaper/lin/conflictresolution/fusio2trait"
-k<-readRDS("/Users/cjh/.claude/jobs/bb3be850/tmp/antag_k.rds")
+k<-readRDS("tmp/antag_k.rds")
 info<-fread(file.path(MR,"disease_gwas_source_info.csv"),select=c("disease","Category"))
 mapcat<-function(c)fifelse(c=="neuro_psych","Neuropsychiatric",fifelse(c=="immune","Immune",
   fifelse(c%in%c("cardiovasc","metabolic"),"Cardiometabolic",fifelse(c=="cancer","Cancer",

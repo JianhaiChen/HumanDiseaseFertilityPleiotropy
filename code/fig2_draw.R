@@ -1,6 +1,6 @@
 ## Figure 2 draw — local sig-cell version. Left stacked (~25 dz) + CAD/SCZ/IBD zooms.
 suppressMessages({library(data.table);library(tidyverse);library(ComplexHeatmap);library(circlize);library(grid)})
-L<-readRDS("/Users/cjh/.claude/jobs/bb3be850/tmp/fig2_data.rds"); OUT<-"/Volumes/S840/04mypaper/lin/conflictresolution/fusio2trait"
+L<-readRDS("tmp/fig2_data.rds"); OUT<-"/Volumes/S840/04mypaper/lin/conflictresolution/fusio2trait"
 disp<-L$disp; sc<-as.data.table(L$sc); dsum<-as.data.table(L$dsum)
 ## display-name cleanups
 dsum[disease=="tsvColorectalcancer1",disp:="Colorectal_Cancer"][disp=="Lung_Carcinoma",disp:="Lung_Cancer"]

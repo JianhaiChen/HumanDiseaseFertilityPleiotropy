@@ -27,7 +27,7 @@ sm(fs_all,"FusioS 全基因");sm(fs_iv,"FusioS IV过滤")
 c1<-merge(mr_all[,.(dk,mrM=M)],fs_all[,.(dk,fsM=M)],by="dk");c2<-merge(mr_all[,.(dk,mrF=F)],fs_all[,.(dk,fsF=F)],by="dk")
 cat(sprintf("\nFusioMR vs FusioS (全基因, 权威法): male r=%.2f 符号一致%.0f%% | female r=%.2f 符号一致%.0f%%\n",
   cor(c1$mrM,c1$fsM,use="complete"),100*mean(sign(c1$mrM)==sign(c1$fsM),na.rm=T),cor(c2$mrF,c2$fsF,use="complete"),100*mean(sign(c2$mrF)==sign(c2$fsF),na.rm=T)))
-SP<-"/private/tmp/claude-501/-Volumes-S840-04mypaper-lin-conflictresolution/f0024ae2-5927-46af-9e15-b88f1fd979a8/scratchpad"
+SP<-"tmp/scratchpad"
 fwrite(fs_all,file.path(SP,"rhoge_AUTH_fs_all.csv"))
 fwrite(fs_iv, file.path(SP,"rhoge_AUTH_fs_iv.csv"))
 old<-fread("/Volumes/S840/04mypaper/lin/conflictresolution/fig4_intralocus_session_20260714/fusios_rho_ALL97.csv")

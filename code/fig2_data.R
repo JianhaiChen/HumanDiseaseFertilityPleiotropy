@@ -29,5 +29,5 @@ have<-sc[,.(ncell=.N,ng=uniqueN(gene)),by=disease]
 dsum<-merge(dsum,have,by="disease")[ng>=3]
 cat("\ndiseases with >=3 displayed genes & cells:",nrow(dsum),"\n")
 print(dsum[order(cat6,-ant_ratio),.(disease,disp,cat6,n_ant,n_gene,ant_ratio=round(ant_ratio,2),ng)])
-saveRDS(list(disp=disp,sc=sc,dsum=dsum),"/Users/cjh/.claude/jobs/bb3be850/tmp/fig2_data.rds")
+saveRDS(list(disp=disp,sc=sc,dsum=dsum),"tmp/fig2_data.rds")
 cat("\nsaved fig2_data.rds\n")
