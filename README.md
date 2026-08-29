@@ -19,7 +19,7 @@ background, observe the phenotype, and use reverse genetics to establish
 mechanism.
 
 That approach is extraordinarily powerful. But I became increasingly
-suspicious with a view I sometimes encountered: that human genetic studies
+suspicious about a view I sometimes heared that human genetic studies
 are inherently less rigorous or less informative because humans cannot be
 experimentally manipulated with the precision possible in model organisms.
 
@@ -27,7 +27,7 @@ My experience in human rare-disease genomics led me to a different view.
 
 Human biology comes with a different kind of scientific resource: an enormous
 natural record accumulated through centuries of medicine and, more recently,
-through population-scale genomics. Human phenotypes have been observed across
+through life-course and population-scale genomics. Human phenotypes have been observed across
 diseases, organs, ages, environments, populations, and generations at a scale
 and breadth that no experimental model can reproduce.
 
