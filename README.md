@@ -51,7 +51,8 @@ poorly represent the standing variation responsible for quantitative fitness
 differences. The perturbation is real, but it need not represent the
 distribution of genetic effects on which evolution ordinarily acts in natural
 populations. In that sense, a knockout can resemble the large-effect
-loss-of-function mutations I encountered in rare human genetic diseases:
+loss-of-function mutations I worked on myself in rare human genetic disease,
+such as the *DMD* splice-donor variant described below:
 extraordinarily informative about biological mechanism, but not necessarily
 representative of the genetic variation through which fitness normally varies
 within a population.
