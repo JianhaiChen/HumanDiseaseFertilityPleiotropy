@@ -40,8 +40,51 @@ a single analogous phenotype in a model organism, let alone for thousands of
 phenotypes.
 
 This difference shaped how I came to think about human genetics. Experimental
-control is one form of scientific power; accumulated variation and observation
-at population scale is another.
+control is one form of scientific power; observing naturally occurring
+variation at population scale is another.
+
+There was also a deeper issue that increasingly interested me as an
+evolutionary geneticist. A gene knockout can provide exceptionally clean
+evidence that a gene affects fitness. But an engineered complete loss of
+function is often an extreme point in the genotype–phenotype map, and it may
+poorly represent the standing variation responsible for quantitative fitness
+differences. The perturbation is real, but it need not represent the
+distribution of genetic effects on which evolution ordinarily acts in natural
+populations. In that sense, a knockout can resemble the large-effect
+loss-of-function mutations I encountered in rare human genetic diseases:
+extraordinarily informative about biological mechanism, but not necessarily
+representative of the genetic variation through which fitness normally varies
+within a population.
+
+Evolution in natural populations acts on variation that actually exists. Much
+of that variation is quantitative: many naturally segregating alleles of modest
+effect, producing a continuous distribution of phenotypes and fitness among real
+individuals. This is what increasingly attracted me to human quantitative
+genetics.
+
+A human biobank is messy in ways that a controlled experiment is not. But every
+point in its phenotypic distribution corresponds to a real person; every common
+allele has actually segregated through human populations; every reproductive
+phenotype represents an outcome that actually occurred. The variation is not
+experimentally imposed. It is the variation on which human evolution has been
+operating.
+
+That gave me a different sense of what counts as evidence in evolutionary
+genetics. Three kinds of study ask three different questions:
+
+- **Knockout genetics.** What happens to fitness if I destroy this gene?
+- **Rare-disease genetics.** What happens when nature produces an unusually
+  severe mutation in this gene?
+- **Quantitative population genetics.** How does naturally segregating genetic
+  variation relate to fitness across the population?
+
+The third is the one that corresponds to what this project set out to measure.
+For the questions I became interested in, that distinction gave me both
+confidence and excitement. I was no longer trying to extrapolate from an
+experimentally constructed perturbation to evolution in nature. I was looking
+directly at the distribution of genetic variation, disease, and reproductive
+success that exists in a population, with each individual representing one
+observation from that evolutionary process.
 
 My earlier work examined how evolutionarily new genes contribute to human
 disease:
