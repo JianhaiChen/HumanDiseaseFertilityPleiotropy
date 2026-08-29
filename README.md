@@ -1,7 +1,7 @@
 # Why are common diseases common?
 
-> Nothing in biology makes sense except in the light of evolution.
-> -- Theodosius Dobzhansky, 1973
+> "Nothing in biology makes sense except in the light of evolution."
+> — Theodosius Dobzhansky, 1973
 
 Human diseases vary enormously in prevalence. Some affect a substantial
 fraction of the population, whereas others are exceedingly rare. Epidemiology
@@ -12,20 +12,20 @@ question remains:
 
 ## Where this question came from
 
-My background is in evolutionary genetics. Earlier in my career I worked in a
+My background is in evolutionary genetics. Earlier in my career, I worked in a
 *Drosophila* laboratory, where I was trained in a tradition that places
 enormous value on experimental precision: perturb a gene, control the genetic
 background, observe the phenotype, and use reverse genetics to establish
 mechanism.
 
 That approach is extraordinarily powerful. But I became increasingly
-uncomfortable with a view I sometimes encountered, that human genetic studies
+uncomfortable with a view I sometimes encountered: that human genetic studies
 are inherently less rigorous or less informative because humans cannot be
 experimentally manipulated with the precision possible in model organisms.
 
 My experience in human rare-disease genomics led me to a different view.
 
-Human biology comes with a different kind of experimental resource: an enormous
+Human biology comes with a different kind of scientific resource: an enormous
 natural record accumulated through centuries of medicine and, more recently,
 through population-scale genomics. Human phenotypes have been observed across
 diseases, organs, ages, environments, populations, and generations at a scale
@@ -49,7 +49,7 @@ disease:
 > Chen J-H, Landback P, Arsala D, Guzzetta A, Xia S, ... Zhang YE, Cheng J,
 > Shen B, Long M. Evolutionarily new genes in humans with disease phenotypes
 > reveal functional enrichment patterns shaped by adaptive innovation and
-> sexual selection. *Genome Research* 35:379-392 (2025).
+> sexual selection. *Genome Research* 35:379–392 (2025).
 > doi:10.1101/gr.279498.124
 
 In parallel, I worked directly on rare Mendelian disease, including the
@@ -59,7 +59,7 @@ dystrophy:
 > Chen J, Jia Y, Zhong J, Zhang K, Dai H, He G, Li F, Zeng L, Fan C, Xu H.
 > Novel mutation leading to splice donor loss in a conserved site of DMD gene
 > causes Duchenne muscular dystrophy with cryptorchidism.
-> *Journal of Medical Genetics* 61:741-749 (2024). doi:10.1136/jmg-2024-109896
+> *Journal of Medical Genetics* 61:741–749 (2024). doi:10.1136/jmg-2024-109896
 
 Rare-disease studies routinely begin with a number: the prevalence of the
 disease. Duchenne affects roughly one in several thousand male births; other
@@ -86,7 +86,7 @@ feature of human genetics that is sometimes regarded as its weakness: we cannot
 design the experiment.
 
 Instead, millions of naturally occurring genetic perturbations have already
-happened. Recombination has randomized them across generations. Natural
+happened. Recombination has reshuffled them across generations. Natural
 selection has acted on them. Physicians have recorded their phenotypic
 consequences. Biobanks have measured disease and reproduction in hundreds of
 thousands of individuals. GWAS and molecular QTL studies have connected those
@@ -97,15 +97,15 @@ to extract its signal.
 
 This led to a simple evolutionary argument. Natural selection does not act on
 disease prevalence itself. Ultimately, it acts through fitness. A
-disease-associated allele does not disappear merely because we call it a risk
-allele. Its evolutionary trajectory depends on all of its phenotypic
+disease-associated allele does not disappear merely because we call it a "risk
+allele." Its evolutionary trajectory depends on all of its phenotypic
 consequences, including its effects on reproduction.
 
 If genetic effects that increase disease liability are coupled to greater
-reproductive success, selection on reproduction may oppose selection against
-disease. This is antagonistic pleiotropy. If disease-increasing effects are
-instead coupled to reduced reproductive success, the two selective consequences
-act in the same direction.
+reproductive success, selection through reproduction may oppose selection
+against disease. This is antagonistic pleiotropy. If disease-increasing effects
+are instead coupled to reduced reproductive success, the two selective
+consequences act in the same direction.
 
 That gives a testable prediction:
 
@@ -114,16 +114,16 @@ genetic variation is coupled to reproductive fitness.**
 
 ## Testing the idea
 
-The first stage of this work characterized disease-fertility genetic coupling
+The first stage of this work characterized disease–fertility genetic coupling
 across 97 complex diseases. The broader question became testable when
 large-scale disease prevalence data could be integrated with genomic estimates
 of reproductive effects.
 
 Across thousands of diseases, a systematic pattern emerged. Disease prevalence
-increased with more antagonistic disease-fertility coupling: genetic effects
+increased with more antagonistic disease–fertility coupling: genetic effects
 associated with increased disease liability were also associated with greater
 reproductive success. Conversely, prevalence decreased with synergistic
-coupling, where disease-increasing effects were associated with reduced
+coupling, in which disease-increasing effects were associated with reduced
 reproductive success.
 
 The same evolutionary logic also led us to examine differences between male and
@@ -131,9 +131,10 @@ female reproductive effects, revealing widespread sexually antagonistic effects
 among disease-associated genes.
 
 What began as a question raised by rare-disease genetics therefore became a
-population-level evolutionary hypothesis: the reproductive consequences of
-disease-associated genetic variation may help explain why some human diseases
-are common while others remain rare.
+population-level evolutionary hypothesis:
+
+**The reproductive consequences of disease-associated genetic variation may
+help explain why some human diseases are common while others remain rare.**
 
 Long live human evolutionary medicine.
 
