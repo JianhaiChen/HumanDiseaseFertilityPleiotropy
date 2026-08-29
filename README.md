@@ -192,6 +192,14 @@ help explain why some human diseases are common while others remain rare.**
 
 Long live evolutionary biology.
 
+This work has been submitted to *Nature Genetics*, and a preprint is in
+production at Research Square.
+
 ---
 
 Repository layout and per-script notes: [CONTENTS.md](CONTENTS.md)
+
+Jian-Hai Chen (Jianhai Chen), University of California, Irvine —
+[homepage](https://jianhaichen.github.io/) ·
+[Google Scholar](https://scholar.google.com/citations?user=1-onMXMAAAAJ) ·
+[ORCID](https://orcid.org/0000-0003-0093-2003)
