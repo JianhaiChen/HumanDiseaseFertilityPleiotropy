@@ -1,7 +1,18 @@
 # Why are common diseases common?
 
-My background is in evolutionary genetics, and my earlier work was on
-evolutionarily new genes:
+Human diseases vary enormously in prevalence. Some affect a substantial
+fraction of the population, whereas others are exceedingly rare. Epidemiology
+describes much of this variation in terms of age, environment, ancestry, and
+exposure. Evolutionary genetics has long asked a related question: why do
+disease-associated variants persist despite natural selection?
+
+But a simpler comparative question remains surprisingly unresolved:
+
+**Why are some diseases common while others are rare?**
+
+I came to this question through work on the evolutionary genetics of human
+disease. My earlier research examined the contribution of evolutionarily new
+genes to human disease phenotypes:
 
 > Chen J-H, Landback P, Arsala D, Guzzetta A, Xia S, ... Zhang YE, Cheng J,
 > Shen B, Long M. Evolutionarily new genes in humans with disease phenotypes
@@ -9,31 +20,43 @@ evolutionarily new genes:
 > sexual selection. *Genome Research* 35:379-392 (2025).
 > doi:10.1101/gr.279498.124
 
-That study used rare diseases, as did the variant-screening work I did
-alongside it. One of those was a DMD splice-donor mutation causing Duchenne
-muscular dystrophy with cryptorchidism:
+In parallel, I worked on rare Mendelian disorders, including the
+identification of a splice-donor mutation in *DMD* causing Duchenne muscular
+dystrophy:
 
 > Chen J, Jia Y, Zhong J, Zhang K, Dai H, He G, Li F, Zeng L, Fan C, Xu H.
 > Novel mutation leading to splice donor loss in a conserved site of DMD gene
 > causes Duchenne muscular dystrophy with cryptorchidism.
 > *Journal of Medical Genetics* 61:741-749 (2024). doi:10.1136/jmg-2024-109896
 
-Duchenne affects about 1 in 5,000 boys. Every screening paper opens with a
-number like that, and after enough of them I started wondering what prevalence
-means in evolutionary terms. Duchenne is rare and stays rare: it is lethal
-before reproduction, so selection removes it every generation. Type 2 diabetes
-is not rare. Something has to be holding the alleles in.
+Studies of rare disease routinely begin by stating prevalence -- one in several
+thousand, one in a hundred thousand -- but this number is usually treated as a
+descriptive epidemiological property. From an evolutionary perspective,
+however, prevalence is also an outcome of the processes that allow
+disease-associated genetic variation to persist across generations.
 
-I began working on this in the Lin lab. The first pass covered 97 diseases and
-found nothing strong, because there was no prevalence data to work with. But
-the intuition held: a common disease is common because its alleles keep being
-transmitted, and transmission is fitness. That is an evolutionary question
-before it is an epidemiological one.
+This led to the idea behind this project.
 
-So I added reproductive data. That is where prevalence turned out to track
-antagonistic and synergistic pleiotropy between disease and fertility.
+Natural selection does not act on disease prevalence itself. It acts on
+fitness. If genetic variants that increase liability to a disease also increase
+reproductive success, their disease-associated effects may be maintained
+despite their costs. Conversely, if disease-increasing effects are coupled to
+reduced reproductive success, selection should act in the same direction as
+disease removal.
 
-This repository holds the code for that analysis.
+This suggests a general hypothesis:
+
+**Variation in disease prevalence may partly reflect how disease-associated
+genetic variation is coupled to reproductive fitness.**
+
+We therefore asked whether disease-fertility genetic coupling could predict
+differences in prevalence across human diseases. The analyses revealed a
+systematic relationship: disease prevalence increased with antagonistic
+pleiotropy, in which disease-increasing effects were coupled to greater
+reproductive success, and decreased with synergistic pleiotropy, in which
+disease-increasing effects were coupled to reduced reproductive success.
+
+This repository contains the code and analyses underlying that study.
 
 ---
 
