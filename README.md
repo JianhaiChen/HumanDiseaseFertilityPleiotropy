@@ -63,9 +63,14 @@ dystrophy:
 
 Rare-disease studies routinely begin with a number: the prevalence of the
 disease. Duchenne affects roughly one in several thousand male births; other
-disorders may affect one in tens or hundreds of thousands. After working with
-these diseases, I became increasingly interested in something that seemed
-almost too simple to ask.
+disorders may affect one in tens or hundreds of thousands.
+
+Manyuan Long once told me that, in science, finding the right question can be
+more important than finding the answer. I kept coming back to that idea. My
+intuition was that disease prevalence itself was an important evolutionary
+question, not simply a number to report at the beginning of a paper.
+
+That led me to ask something that seemed almost too simple:
 
 What does prevalence mean in evolutionary terms? Why does one genetic disease
 remain extremely rare while another complex disease affects millions of people?
