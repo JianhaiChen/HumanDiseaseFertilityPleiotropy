@@ -1,5 +1,8 @@
 # Why are common diseases common?
 
+> Nothing in biology makes sense except in the light of evolution.
+> -- Theodosius Dobzhansky, 1973
+
 Human diseases vary enormously in prevalence. Some affect a substantial
 fraction of the population, whereas others are exceedingly rare. Epidemiology
 has documented this variation in extraordinary detail, yet a basic evolutionary
@@ -127,8 +130,7 @@ population-level evolutionary hypothesis: the reproductive consequences of
 disease-associated genetic variation may help explain why some human diseases
 are common while others remain rare.
 
-This repository contains the code and analyses developed to test that
-hypothesis.
+Long live human evolutionary medicine.
 
 ---
 
