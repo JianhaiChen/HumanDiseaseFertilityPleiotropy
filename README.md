@@ -87,6 +87,13 @@ directly at the distribution of genetic variation, disease, and reproductive
 success that exists in a population, with each individual representing one
 observation from that evolutionary process.
 
+And behind every data point was a person who once breathed, felt, lived,
+reproduced, suffered, and experienced the world much as we do. I found that
+realization profoundly moving. These datasets are not merely collections of
+measurements; they are the accumulated biological histories of real human
+lives. I am deeply grateful to the participants whose contributions made this
+collective record of human variation possible.
+
 My earlier work examined how evolutionarily new genes contribute to human
 disease:
 
