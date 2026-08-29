@@ -25,7 +25,7 @@ experimentally manipulated with the precision possible in model organisms.
 
 My experience in human rare-disease genomics led me to a different but optimistic view.
 
-Human biology comes with a different kind of scientific resource: an enormous
+Human genetics comes with a different kind of scientific resource: an enormous
 natural record accumulated through centuries of medicine and, more recently,
 through life-course and population-scale genomics. Human phenotypes have been observed across
 diseases, organs, ages, environments, populations, and generations at a scale
