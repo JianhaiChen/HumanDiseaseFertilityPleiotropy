@@ -1,3 +1,31 @@
+# Why are common diseases common?
+
+I came to this question from genomics data analysis. My background is in
+evolutionary genetics, and my earlier work was on evolutionarily new genes:
+
+> Chen J-H, Landback P, Arsala D, Guzzetta A, Xia S, ... Zhang YE, Cheng J,
+> Shen B, Long M. *Evolutionarily new genes in humans with disease phenotypes
+> reveal functional enrichment patterns shaped by adaptive innovation and
+> sexual selection.*
+
+That study used rare diseases, as did several other analyses I worked on.
+Every screening paper on a disease opens the same way: with its prevalence.
+Reading enough of them, I started wondering what prevalence means in
+evolutionary terms.
+
+I began working on it in the Lin lab. The first pass covered 97 diseases and
+found nothing strong, because there was no prevalence data to work with. But
+the intuition held: a common disease is common because its alleles keep being
+transmitted, and transmission is fitness. That is an evolutionary question
+before it is an epidemiological one.
+
+So I added reproductive data. That is where prevalence turned out to track
+antagonistic and synergistic pleiotropy between disease and fertility.
+
+This repository holds the code for that analysis.
+
+---
+
 Code for the disease-fertility pleiotropy paper. Directories follow the Methods sections.
 
 FusioMR_m = joint model (97 UK Biobank diseases, 50 GTEx tissues).
