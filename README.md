@@ -19,7 +19,7 @@ background, observe the phenotype, and use reverse genetics to establish
 mechanism.
 
 That approach is extraordinarily powerful. But I became increasingly
-uncomfortable with a view I sometimes encountered: that human genetic studies
+suspicious with a view I sometimes encountered: that human genetic studies
 are inherently less rigorous or less informative because humans cannot be
 experimentally manipulated with the precision possible in model organisms.
 
