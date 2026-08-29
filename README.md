@@ -57,8 +57,9 @@ extraordinarily informative about biological mechanism, but not necessarily
 representative of the genetic variation through which fitness normally varies
 within a population.
 
-Evolution in natural populations acts on variation that actually exists. Much
-of that variation is quantitative: many naturally segregating alleles of modest
+Evolution in natural populations ultimately unfolds through genetic variation
+that arises, segregates, and is transmitted across generations. Much of that
+variation is quantitative: many naturally segregating alleles of modest
 effect, producing a continuous distribution of phenotypes and fitness among real
 individuals. This is what increasingly attracted me to human quantitative
 genetics.
@@ -81,11 +82,12 @@ genetics. Three kinds of study ask three different questions:
 
 The third is the one that corresponds to what this project set out to measure.
 For the questions I became interested in, that distinction gave me both
-confidence and excitement. I was no longer trying to extrapolate from an
-experimentally constructed perturbation to evolution in nature. I was looking
-directly at the distribution of genetic variation, disease, and reproductive
-success that exists in a population, with each individual representing one
-observation from that evolutionary process.
+confidence and excitement. I was no longer asking only what an experimentally
+constructed perturbation could do; I could ask what naturally occurring genetic
+variation actually does across a population. I was looking directly at the
+distribution of genetic variation, disease, and reproductive success that
+exists in a population, with each individual representing one observation from
+that evolutionary process.
 
 And behind every data point was a person who once breathed, felt, lived,
 reproduced, suffered, and experienced the world much as we do. I found that
