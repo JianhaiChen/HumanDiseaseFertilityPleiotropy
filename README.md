@@ -1,19 +1,30 @@
 # Why are common diseases common?
 
-I came to this question from genomics data analysis. My background is in
-evolutionary genetics, and my earlier work was on evolutionarily new genes:
+My background is in evolutionary genetics, and my earlier work was on
+evolutionarily new genes:
 
 > Chen J-H, Landback P, Arsala D, Guzzetta A, Xia S, ... Zhang YE, Cheng J,
-> Shen B, Long M. *Evolutionarily new genes in humans with disease phenotypes
+> Shen B, Long M. Evolutionarily new genes in humans with disease phenotypes
 > reveal functional enrichment patterns shaped by adaptive innovation and
-> sexual selection.*
+> sexual selection. *Genome Research* 35:379-392 (2025).
+> doi:10.1101/gr.279498.124
 
-That study used rare diseases, as did several other analyses I worked on.
-Every screening paper on a disease opens the same way: with its prevalence.
-Reading enough of them, I started wondering what prevalence means in
-evolutionary terms.
+That study used rare diseases, as did the variant-screening work I did
+alongside it. One of those was a DMD splice-donor mutation causing Duchenne
+muscular dystrophy with cryptorchidism:
 
-I began working on it in the Lin lab. The first pass covered 97 diseases and
+> Chen J, Jia Y, Zhong J, Zhang K, Dai H, He G, Li F, Zeng L, Fan C, Xu H.
+> Novel mutation leading to splice donor loss in a conserved site of DMD gene
+> causes Duchenne muscular dystrophy with cryptorchidism.
+> *Journal of Medical Genetics* 61:741-749 (2024). doi:10.1136/jmg-2024-109896
+
+Duchenne affects about 1 in 5,000 boys. Every screening paper opens with a
+number like that, and after enough of them I started wondering what prevalence
+means in evolutionary terms. Duchenne is rare and stays rare: it is lethal
+before reproduction, so selection removes it every generation. Type 2 diabetes
+is not rare. Something has to be holding the alleles in.
+
+I began working on this in the Lin lab. The first pass covered 97 diseases and
 found nothing strong, because there was no prevalence data to work with. But
 the intuition held: a common disease is common because its alleles keep being
 transmitted, and transmission is fitness. That is an evolutionary question
