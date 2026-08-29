@@ -190,7 +190,7 @@ population-level evolutionary hypothesis:
 **The reproductive consequences of disease-associated genetic variation may
 help explain why some human diseases are common while others remain rare.**
 
-Long live human evolutionary medicine.
+Long live evolutionary biology.
 
 ---
 
