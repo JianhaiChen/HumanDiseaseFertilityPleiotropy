@@ -23,7 +23,7 @@ suspicious about a view I sometimes heared that human genetic studies
 are inherently less rigorous or less informative because humans cannot be
 experimentally manipulated with the precision possible in model organisms.
 
-My experience in human rare-disease genomics led me to a different view.
+My experience in human rare-disease genomics led me to a different but positive view.
 
 Human biology comes with a different kind of scientific resource: an enormous
 natural record accumulated through centuries of medicine and, more recently,
