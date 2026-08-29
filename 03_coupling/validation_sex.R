@@ -16,9 +16,8 @@ vv<-function(p,t){mm<-grep(paste0("^",t,"="),p,value=T);if(!length(mm))return(NA
 rg<-rbindlist(lapply(Lr,function(x){pp<-strsplit(x,"\t")[[1]];data.table(dk=nk(sub("_$","",pp[1])),Male=vv(pp,"father"),Female=vv(pp,"mother"))}))
 rgl<-melt(rg,id.vars="dk",variable.name="sex",value.name="ldsc")[!is.na(ldsc)][,sex:=as.character(sex)]
 R<-merge(R,rgl,by=c("dk","sex"),all.x=T)
-## the 61-disease rhoge_auth_compare.csv and the 77 published Table S5 rows are the
-## same computation on different partial subsets; merge_tableS5_90.R unions them to
-## 90 diseases, which is what Table S5 and the manuscript report.
+## Table S5 covers 90 diseases; merge_tableS5_90.R builds it from the two partial
+## subsets (rhoge_auth_compare.csv, 61; the earlier 77-disease table).
 comp<-fread("${PROJ}/tableS5_90diseases.tsv")
 compS<-rbind(comp[,.(dk=Disease,mr=rhoGE_FusioMR_male,fs=rhoGE_FusioS_male,sex="Male")],
              comp[,.(dk=Disease,mr=rhoGE_FusioMR_female,fs=rhoGE_FusioS_female,sex="Female")])

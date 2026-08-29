@@ -1,9 +1,6 @@
 #!/usr/bin/env Rscript
-## Fig 4 panels B (H_g heterogeneity) and C (OEP ~ coupling concordance),
-## recomputed from the manuscript's described logic and drawn in house style.
-## Validated against the collaborator figure: H_g 302/1,828, 0.811/0.615
-## (published 303/1,831, 0.810/0.614); OEP 1,542 pairs / 80 diseases,
-## weighted partial r = -0.24 (published -0.23).
+## Fig 4 panel B (directional heterogeneity H_g) and panel C (opposite-effect
+## proportion against coupling concordance).
 suppressMessages({library(data.table); library(ggplot2)})
 MR <- "${MR}"
 D  <- "${ROOT}"

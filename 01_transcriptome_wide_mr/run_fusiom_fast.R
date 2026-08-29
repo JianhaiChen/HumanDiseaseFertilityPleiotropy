@@ -1,17 +1,12 @@
 #!/usr/bin/env Rscript
-## FusioMR fast version. Same model/priors/params as run_fusiom.R -- only the
-## plumbing changed. Job granularity is (tissue, disease, fitness): all 22
-## chromosomes run inside one job instead of 22 separate jobs.
+## FusioMR_m transcriptome-wide MR. One job per (tissue, disease, fitness)
+## triple, all 22 chromosomes inside the job: the local prior is read once, the
+## global prior built once, the Rcpp core compiled once.
 ##
-## Speedups vs run_fusiom.R:
-##  1. one job per trait pair, not per chromosome -> localprior read + global
-##     prior built once instead of 22x, and sourceCpp compiled once not 22x
-##  2. no append_locked: results accumulate in memory and land in one private
-##     file. The old path forked a shell running flock+cat for EVERY gene.
-##  3. keyed data.table subset instead of dplyr::filter(gene == gg) in a loop,
-##     which rescanned the whole table per gene (O(n^2))
-##  4. Rcpp cache read from a shared prebuilt copy, written node-locally
-##  5. mclapply over genes
+## Results accumulate in memory and are written to one file per job. The Rcpp
+## cache is read from a shared prebuilt copy and rebuilt node-locally, since a
+## shared cache directory is not safe across concurrent array tasks.
+## Genes are subset by data.table key and run under mclapply.
 
 suppressPackageStartupMessages({
   library(data.table); library(mvtnorm); library(LaplacesDemon)

@@ -1,6 +1,5 @@
-## cis-eQTLs p<0.001, LD-clumped in R (100 kb, r2<0.1). No cap per gene.
+## cis-eQTLs p<0.001, LD-clumped in R (100 kb, r2<0.1), all clumped SNPs kept.
 ## Usage: Rscript preclump_R_full.R <tissue> [chr]
-## Pre-clump via in-R LD (BEDMatrix). Usage: Rscript preclump_R.R <tissue> [chr]
 suppressMessages({library(data.table); library(BEDMatrix)})
 a <- commandArgs(trailingOnly=TRUE); tissue <- a[1]; chr_only <- if(length(a)>=2 && a[2]!="") as.integer(a[2]) else NA_integer_
 KB <- 100000; R2T <- 0.1

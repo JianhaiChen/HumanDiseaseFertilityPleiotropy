@@ -7,9 +7,6 @@ Stage 1, instruments
                          >=5 clumped instruments per gene
   preclump_full.sbatch   array over the (tissue, chromosome) grid
 
-  No cap on eQTLs entering the clumping step. Capping first (top 30 by p) cuts
-  surviving instruments several-fold and drops genes below the >=5 threshold.
-
 Stage 2, transcriptome-wide MR
   run_disease_full.sbatch  one task per disease, all tissues
   run_dz_chunk.sbatch      tissues split into CHUNK groups, one array per chunk

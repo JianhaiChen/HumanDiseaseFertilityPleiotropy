@@ -1,8 +1,8 @@
 #!/usr/bin/env Rscript
 ## Correction of the per-endpoint antagonistic share for false positives.
 ## Observed share s = phi*0.5 + (1-phi)*t, with phi = min(0.05*F/n, 1); every gene is
-## treated as null, so phi is an upper bound. phi never reaches 1 here (max 0.64/0.59).
-## Cut from the manuscript 2026-08-15; kept for the review response.
+## treated as null, so phi is an upper bound (max 0.64/0.59 here).
+## Sensitivity analysis; not part of the main text.
 suppressMessages(library(data.table))
 
 CLASSES <- Sys.getenv("ANTAG_CLASSES",

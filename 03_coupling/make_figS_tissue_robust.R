@@ -1,10 +1,7 @@
 #!/usr/bin/env Rscript
-## Supplementary figure fig:tissuerobust — does the antagonistic/synergistic call
-## depend on taking the direction from the minimum-P tissue rather than from the
-## cross-tissue IVW meta-analysis?
-## Recovered 2026-08-24 from the 2026-08-14 session transcript (it had been run as an
-## inline heredoc and never saved) and re-pointed at the current workbook, whose
-## Supplementary Table 7 now carries the meta-analytic directions itself.
+## Supplementary figure fig:tissuerobust: antagonistic/synergistic calls taken from
+## the minimum-P tissue against calls taken from the cross-tissue IVW meta-analysis.
+## Meta-analytic directions are read from Supplementary Table 7.
 suppressMessages({library(data.table); library(ggplot2); library(openxlsx)})
 D  <- "${ROOT}"
 S7 <- setDT(read.xlsx(file.path(D,"fusio2trait/Supplementary Table.xlsx"),
@@ -15,9 +12,8 @@ M[, `:=`(ant_top  = pleiotropy_type      == "antagonistic (conflict)",
 cat(sprintf("pairs %d | same classification %.2f%%\n", nrow(M), 100*mean(M$ant_top==M$ant_meta)))
 per <- M[, .(a=100*mean(ant_top), b=100*mean(ant_meta), n=.N),
          by=.(disease, axis=fertility_trait)][n>=10]
-## The two definitions classify every pair identically, so the fractions are the
-## same numbers and a correlation between them is vacuous (it is 1 by construction).
-## Report the count instead.
+## The two definitions agree on every pair, so report the count of identical
+## diseases rather than a correlation.
 rr <- per[, .(lab=sprintf("'%s: %d/%d diseases identical'", substr(axis,1,1),
                           sum(a==b), .N)), by=axis]
 print(per[, .(diseases=.N, r=round(cor(a,b),4)), by=axis])
