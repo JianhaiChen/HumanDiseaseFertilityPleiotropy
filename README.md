@@ -1,6 +1,7 @@
 # Why are common diseases common?
 
-> "Nothing in biology makes sense except in the light of evolution. "
+> "Nothing in biology makes sense except in the light of evolution."
+
 > — Theodosius Dobzhansky, 1973
 
 Human diseases vary enormously in prevalence. Some affect a substantial
