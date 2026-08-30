@@ -131,7 +131,7 @@ remain extremely rare while another complex disease affects millions of people?
 
 ## From disease genetics to population genetics
 
-When I began working with Lin Chen and became more deeply involved in
+When I worked with Lin Chen and became more deeply involved in
 statistical genetics and genomic epidemiology, I returned to this question.
 
 It became apparent that the question could not be answered by experimental
