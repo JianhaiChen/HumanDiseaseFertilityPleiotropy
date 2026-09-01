@@ -192,7 +192,7 @@ help explain why some human diseases are common while others remain rare.**
 
 Long live evolutionary biology.
 
-This work has been submitted to *Nature Genetics*, and a preprint is in
+This work has a preprint in
 production at Research Square.
 
 ---
