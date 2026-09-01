@@ -183,36 +183,37 @@ reproductive success.
 ## Evolution already had an answer: the age of onset
 
 There is an older and far better established explanation for why deleterious
-variation persists, and it had to be taken seriously before ours could mean
-anything. Selection is weak on effects expressed after most reproduction has
-already occurred. Variation acting late in life therefore sits in a selection
-shadow, so late-onset diseases should be the common ones, whereas variation
-expressed before reproduction should be removed efficiently and the diseases it
-causes should remain rare.
+variation persists, and it deserved a fair hearing before anything of ours
+could mean much. Selection acts weakly on effects that appear after most
+reproduction is over. Variation expressed late in life therefore sits in a
+selection shadow, and a prediction follows directly: late-onset diseases should
+be the common ones, while variation expressed before reproduction should be
+removed efficiently, leaving the diseases it causes rare.
 
 The two ideas ask different questions. Age of onset asks *when* selection can
 see a disease. Fertility coupling asks *what* selection sees when it looks. The
-honest test is not to argue for one of them, but to put both into the same
+honest test is not to argue for one over the other, but to fit both in the same
 model.
 
-So we did, for every disease with registry estimates of age at first recorded
-event and of five-year mortality, in a single pre-specified model that was
-never re-specified to make one term look larger.
+That is what we did, for every disease with registry estimates of both age at
+first recorded event and five-year mortality. The model was specified in
+advance and never re-specified to make one term look larger.
 
-Age of onset does matter. But it does not behave the way the selection shadow
-predicts. Its relationship with prevalence is not monotonic: prevalence does not
-simply rise as diseases begin later in life, and a straight line through onset
-averages two opposing arms to nearly nothing. Once that curvature is allowed
-for, onset still accounts for only a modest share of the variation in
-prevalence -- less than disease severity does, measured as excess mortality.
+Age of onset does matter, but not in the way the selection shadow predicts. Its
+relationship with prevalence is not monotonic: prevalence does not simply rise
+as diseases begin later in life. Because the curve rises and then falls, a
+straight line through onset cancels the two arms against each other and leaves
+almost nothing. Even once that curvature is allowed for, onset explains only a
+modest share of the variation in prevalence — less than disease severity does,
+measured as excess mortality.
 
-Disease-fertility coupling remained the largest single component after both.
-And it was not a disguised version of onset: among diseases that begin early,
-in mid-life, or late, the relationship between coupling and prevalence was
-essentially the same in all three.
+With both onset and severity in the model, disease-fertility coupling remained
+the largest single contributor. Nor was it onset in disguise: among diseases
+that begin early, in mid-life, or late, the relationship between coupling and
+prevalence was much the same.
 
-That distinction is what the project now rests on. When a disease begins sets
-how much selection can act on it. What the underlying variation does to
+That is the distinction the project now rests on. When a disease begins sets
+how much selection can act on it; what the underlying variation does to
 reproduction sets what selection then does with it. The second carries more of
 the answer.
 
