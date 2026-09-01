@@ -180,52 +180,55 @@ reproductive success. Conversely, prevalence decreased with synergistic
 coupling, in which disease-increasing effects were associated with reduced
 reproductive success.
 
-## Evolution already had an answer: the age of onset
+## A classical evolutionary explanation: age-dependent selection
 
-There is an older and far better established explanation for why deleterious
-variation persists, and it deserved a fair hearing before anything of ours
-could mean much. Selection acts weakly on effects that appear after most
-reproduction is over. Variation expressed late in life therefore sits in a
-selection shadow, and a prediction follows directly: late-onset diseases should
-be the common ones, while variation expressed before reproduction should be
-removed efficiently, leaving the diseases it causes rare.
+There is an older and far better established evolutionary explanation for the
+persistence of deleterious variation. The force of natural selection declines
+with age, so deleterious effects expressed later in life may experience weaker
+purifying selection than those expressed earlier. This selection shadow
+provides a classical route by which late-acting deleterious variation can
+persist.
 
-The two ideas ask different questions. Age of onset asks *when* selection can
-see a disease. Fertility coupling asks *what* selection sees when it looks. The
-honest test is not to argue for one over the other, but to fit both in the same
-model.
+Disease–fertility coupling addresses a different dimension of the same problem.
+Age of onset asks *when* the health costs of genetic variation are exposed to
+selection. Fertility coupling asks *what* reproductive consequences accompany
+those costs — whether selection through reproduction opposes or reinforces
+them. The two mechanisms are therefore complementary, and the relevant test is
+whether disease-fertility coupling predicts prevalence after accounting for
+disease onset and severity.
 
-That is what we did, for every disease with registry estimates of both age at
-first recorded event and five-year mortality. The model was specified in
-advance and never re-specified to make one term look larger.
+We tested this across diseases with registry estimates of age at first recorded
+event and five-year mortality. Age at first recorded event showed a significant
+but non-monotonic relationship with prevalence. Prevalence declined from
+earlier- to mid-life disease and increased again among diseases first recorded
+later in life. The late-life increase was consistent with weaker purifying
+selection against deleterious effects expressed at older ages, but the overall
+relationship was more complex than a simple monotonic prediction from declining
+selection with age.
 
-Age of onset does matter, but not in the way the selection shadow predicts. Its
-relationship with prevalence is not monotonic: prevalence does not simply rise
-as diseases begin later in life. Because the curve rises and then falls, a
-straight line through onset cancels the two arms against each other and leaves
-almost nothing. Even once that curvature is allowed for, onset explains only a
-modest share of the variation in prevalence — less than disease severity does,
-measured as excess mortality.
+Against this background, disease-fertility coupling remained strongly
+associated with prevalence after accounting jointly for disease onset,
+mortality and disease category. This relationship was also present among
+diseases first recorded early, in mid-life and later in life, indicating that
+disease-fertility coupling was not simply capturing differences in disease
+onset.
 
-With both onset and severity in the model, disease-fertility coupling remained
-the largest single contributor. Nor was it onset in disguise: among diseases
-that begin early, in mid-life, or late, the relationship between coupling and
-prevalence was much the same.
+This distinction sharpened the evolutionary interpretation of the project. When
+a disease manifests influences how strongly its deleterious effects are exposed
+to selection; what the underlying genetic variation does to reproduction
+influences whether selection through fertility opposes or reinforces those
+effects. Both can shape the evolutionary fate of disease-associated variation.
 
-That is the distinction the project now rests on. When a disease begins sets
-how much selection can act on it; what the underlying variation does to
-reproduction sets what selection then does with it. The second carries more of
-the answer.
-
-The same evolutionary logic also led us to examine differences between male and
-female reproductive effects, revealing widespread sexually antagonistic effects
-among disease-associated genes.
+The same logic also led us to ask whether reproductive consequences differ
+between the sexes. They do: disease-associated genes showed widespread sexually
+antagonistic effects, suggesting that variation detrimental in one sex may
+sometimes be maintained through reproductive benefits in the other.
 
 What began as a question raised by rare-disease genetics therefore became a
 population-level evolutionary hypothesis:
 
 **The reproductive consequences of disease-associated genetic variation may
-help explain why some human diseases are common while others remain rare.**
+help explain variation in human disease prevalence.**
 
 Long live evolutionary biology.
 
