@@ -232,8 +232,8 @@ help explain variation in human disease prevalence.**
 
 Long live evolutionary biology.
 
-The manuscript was submitted to *Nature Communications* in September 2026;
-a preprint is in production at Research Square.
+The manuscript is under review; a preprint is in production at
+Research Square.
 
 ---
 
