@@ -1,0 +1,21 @@
+% Merged Figure 4 (6 panels)
+% a antagonistic share ~ prevalence      b d+f- share ~ prevalence
+% c GWAS-sign antagonistic loci ~ prev   d age at first recorded event (added-variable)
+% e paternal coupling (added-variable)   f coupling ~ prevalence within onset tertiles
+\documentclass{article}
+\usepackage[papersize={519pt,716pt},margin=0pt]{geometry}
+\usepackage{graphicx}
+\pagestyle{empty}
+\setlength{\unitlength}{1pt}
+\newcommand{\FF}[1]{/Volumes/S840/04mypaper/lin/conflictresolution/fusio2trait/figures_final/#1}
+\newcommand{\PL}[3]{\put(#1,#2){\textsf{\textbf{\fontsize{9}{9}\selectfont #3}}}}
+\begin{document}%
+\noindent\begin{picture}(519,716)
+  \put(4,480){\includegraphics[width=250pt]{\FF{Fig2D_antagclass.pdf}}}         \PL{3}{698}{a}
+  \put(267,480){\includegraphics[width=250pt]{\FF{Fig4b_dpfm.pdf}}}             \PL{266}{698}{b}
+  \put(4,243){\includegraphics[width=250pt]{\FF{Fig4c_snpantag_scatter.pdf}}}   \PL{3}{461}{c}
+  \put(267,243){\includegraphics[width=250pt]{\FF{Fig4d_onset_av.pdf}}}         \PL{266}{461}{d}
+  \put(4,6){\includegraphics[width=250pt]{\FF{Fig4e_coupling_av.pdf}}}          \PL{3}{224}{e}
+  \put(267,6){\includegraphics[width=250pt]{\FF{Fig4f_onset_strata.pdf}}}       \PL{266}{224}{f}
+\end{picture}%
+\end{document}

@@ -1,0 +1,18 @@
+% Figure 5 (sexual conflict, 2x2, uniform panels)
+%   a cross-sex effect-sign track | b local recombination (vertical violins)
+%   c female reproductive tract   | d male reproductive tract
+\documentclass{article}
+\usepackage[papersize={519pt,472pt},margin=0pt]{geometry}
+\usepackage{graphicx}
+\pagestyle{empty}
+\setlength{\unitlength}{1pt}
+\newcommand{\FF}[1]{/Volumes/S840/04mypaper/lin/conflictresolution/fusio2trait/figures_final/#1}
+\newcommand{\PL}[3]{\put(#1,#2){\textsf{\textbf{\fontsize{9}{9}\selectfont #3}}}}
+\begin{document}%
+\noindent\begin{picture}(519,472)
+  \put(4,242){\includegraphics[width=250pt]{\FF{Fig5a_track.pdf}}}      \PL{6}{450}{a}
+  \put(267,242){\includegraphics[width=250pt]{\FF{Fig5b_vert.pdf}}}     \PL{269}{450}{b}
+  \put(4,6){\includegraphics[width=250pt]{\FF{Fig4_panel_gynae.pdf}}}   \PL{6}{214}{c}
+  \put(267,6){\includegraphics[width=250pt]{\FF{Fig5d_maletract.pdf}}}  \PL{269}{214}{d}
+\end{picture}%
+\end{document}
