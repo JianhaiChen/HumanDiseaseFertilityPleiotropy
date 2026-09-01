@@ -168,17 +168,53 @@ genetic variation is coupled to reproductive fitness.**
 
 ## Testing the idea
 
-The first stage of this work characterized disease–fertility genetic coupling
+The first stage of this work characterized disease-fertility genetic coupling
 across 97 complex diseases. The broader question became testable when
 large-scale disease prevalence data could be integrated with genomic estimates
 of reproductive effects.
 
 Across thousands of diseases, a systematic pattern emerged. Disease prevalence
-increased with more antagonistic disease–fertility coupling: genetic effects
+increased with more antagonistic disease-fertility coupling: genetic effects
 associated with increased disease liability were also associated with greater
 reproductive success. Conversely, prevalence decreased with synergistic
 coupling, in which disease-increasing effects were associated with reduced
 reproductive success.
+
+## Evolution already had an answer: the age of onset
+
+There is an older and far better established explanation for why deleterious
+variation persists, and it had to be taken seriously before ours could mean
+anything. Selection is weak on effects expressed after most reproduction has
+already occurred. Variation acting late in life therefore sits in a selection
+shadow, so late-onset diseases should be the common ones, whereas variation
+expressed before reproduction should be removed efficiently and the diseases it
+causes should remain rare.
+
+The two ideas ask different questions. Age of onset asks *when* selection can
+see a disease. Fertility coupling asks *what* selection sees when it looks. The
+honest test is not to argue for one of them, but to put both into the same
+model.
+
+So we did, for every disease with registry estimates of age at first recorded
+event and of five-year mortality, in a single pre-specified model that was
+never re-specified to make one term look larger.
+
+Age of onset does matter. But it does not behave the way the selection shadow
+predicts. Its relationship with prevalence is not monotonic: prevalence does not
+simply rise as diseases begin later in life, and a straight line through onset
+averages two opposing arms to nearly nothing. Once that curvature is allowed
+for, onset still accounts for only a modest share of the variation in
+prevalence -- less than disease severity does, measured as excess mortality.
+
+Disease-fertility coupling remained the largest single component after both.
+And it was not a disguised version of onset: among diseases that begin early,
+in mid-life, or late, the relationship between coupling and prevalence was
+essentially the same in all three.
+
+That distinction is what the project now rests on. When a disease begins sets
+how much selection can act on it. What the underlying variation does to
+reproduction sets what selection then does with it. The second carries more of
+the answer.
 
 The same evolutionary logic also led us to examine differences between male and
 female reproductive effects, revealing widespread sexually antagonistic effects
@@ -192,8 +228,8 @@ help explain why some human diseases are common while others remain rare.**
 
 Long live evolutionary biology.
 
-This work has a preprint in
-production at Research Square.
+The manuscript was submitted to *Nature Communications* in September 2026;
+a preprint is in production at Research Square.
 
 ---
 
